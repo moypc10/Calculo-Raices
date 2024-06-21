@@ -3,9 +3,15 @@
 using namespace std;
 typedef long double ld;
 
-int main() {
-    ld a,b,c;
-    cin >> a >> b >> c;
+int main(int argc, char* argv[]) {
+    if (argc != 4) {
+        cerr << "Usage: " << argv[0] << " a b c" << endl;
+        return 1;
+    }
+
+    ld a = atof(argv[1]);
+    ld b = atof(argv[2]);
+    ld c = atof(argv[3]);
 
     ld r1 = 0, r2 = 0;
     bool raicesReales = false;
