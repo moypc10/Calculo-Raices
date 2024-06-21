@@ -1,5 +1,6 @@
 # Find Roots of a Quadratic Equation
 
+## Introduction
 A C++ program designed to find the real roots of a quadratic polynomial in the standard form: \(ax^2 + bx + c = 0\). The program takes three coefficients \(a\), \(b\), and \(c\) as input, representing the quadratic, linear, and constant terms of the polynomial, respectively. It then calculates and provides the real roots \(r1\) and \(r2\), if they exist. If the polynomial has complex roots (when the determinant is less than zero), the program will indicate that there are no real roots. This program is useful for solving quadratic equations commonly encountered in various fields of science and engineering.
 
 
